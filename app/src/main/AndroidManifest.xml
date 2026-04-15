@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ListaProfessoresActivity"
+            android:label="@string/manage_teachers"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CadastroProfessorActivity"
+            android:label="@string/teacher_registration"
+            android:parentActivityName=".ListaProfessoresActivity" />
+
+        <activity
+            android:name=".ListaDisciplinasActivity"
+            android:label="@string/manage_subjects"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CadastroDisciplinaActivity"
+            android:label="@string/subject_registration"
+            android:parentActivityName=".ListaDisciplinasActivity" />
+
+        <activity
+            android:name=".ListaTurmasActivity"
+            android:label="@string/manage_classes"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".CadastroTurmaActivity"
+            android:label="@string/class_registration"
+            android:parentActivityName=".ListaTurmasActivity" />
+
+        <activity
+            android:name=".CadastroGradeActivity"
+            android:label="Nova Aula"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".VisualizarGradeActivity"
+            android:label="Grade Horária"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>

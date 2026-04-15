@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gerador de Horários</string>
+    <string name="welcome_title">Painel de Gestão Escolar</string>
+    <string name="manage_teachers">Gerenciar Professores</string>
+    <string name="manage_subjects">Gerenciar Disciplinas</string>
+    <string name="manage_classes">Gerenciar Turmas</string>
+    <string name="view_schedule">Visualizar Grade Horária</string>
+
+    <string name="teacher_registration">Cadastro de Professor</string>
+    <string name="teacher_name">Nome do Professor</string>
+    <string name="availability">Dias da Semana Disponíveis</string>
+    <string name="monday">Segunda-feira</string>
+    <string name="tuesday">Terça-feira</string>
+    <string name="wednesday">Quarta-feira</string>
+    <string name="thursday">Quinta-feira</string>
+    <string name="friday">Sexta-feira</string>
+    <string name="save_teacher">Salvar Professor</string>
+    <string name="teacher_saved_success">Professor cadastrado com sucesso!</string>
+    <string name="teacher_deleted_format">Professor %s excluído</string>
+
+    <string name="subject_registration">Cadastro de Disciplina</string>
+    <string name="subject_name">Nome da Disciplina</string>
+    <string name="workload">Carga Horária Semanal (horas)</string>
+    <string name="workload_format">%d horas semanais</string>
+    <string name="save_subject">Salvar Disciplina</string>
+    <string name="subject_saved_success">Disciplina cadastrada com sucesso!</string>
+    <string name="subject_deleted">Disciplina excluída</string>
+    <string name="fab_new_subject">Nova Disciplina</string>
+
+    <string name="class_registration">Cadastro de Turma</string>
+    <string name="class_name">Nome da Turma</string>
+    <string name="save_class">Salvar Turma</string>
+    <string name="class_saved_success">Turma cadastrada com sucesso!</string>
+    <string name="class_deleted">Turma excluída</string>
+    <string name="fab_new_class">Nova Turma</string>
+
+    <string name="schedule_lesson">Agendar Aula</string>
+    <string name="select_class">Selecione a Turma</string>
+    <string name="select_subject">Selecione a Disciplina</string>
+    <string name="select_teacher">Selecione o Professor</string>
+    <string name="select_day">Selecione o Dia</string>
+    <string name="time_hint">Horário (ex: 07:00)</string>
+    <string name="schedule_title">Agendamento de Aula</string>
+</resources>

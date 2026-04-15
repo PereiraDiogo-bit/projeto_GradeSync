@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Institucional e Educacional -->
+    <color name="primary_navy">#1A237E</color>
+    <color name="primary_light_navy">#534BAE</color>
+    <color name="primary_dark_navy">#000051</color>
+
+    <color name="secondary_gray">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#FAFAFA</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>
